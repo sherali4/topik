@@ -5,6 +5,7 @@ from func import replace_text_in_doc, eng_katta, eng_kup_hudud, from_excel, eng_
 replace_text_in_doc("example.docx", "357.docx", "period_uz", "mart")
 replace_text_in_doc("357.docx", "357.docx", "period_ru", "март")
 
+
 # Foydalanish:
 replace_text_in_doc("357.docx", "357.docx", "2023_raqam", from_excel('B4'))
 replace_text_in_doc("357.docx", "357.docx", "2024_raqam", from_excel('C4'))

@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+Pipfile
+Pipfile.lock
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Logs and debug files
+*.log
+*.out
+*.err
+logs/
+debug.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Cache
+*.cache
+*.pytest_cache/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+
+# Docker
+docker-compose.override.yml
+
+# Secrets (never commit!)
+.env
+*.env
+config.json
+secrets.json
+
+# SQLite database
+*.sqlite3
+*.db
+*.sqlite
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
