@@ -17,7 +17,7 @@ qurilish.hudud_ru('@hr1', 1)
 qurilish.hudud_ru('@hr2', 2)
 # run.add_break(WD_BREAK.LINE)
 qurilish = Filltopic('shablon/qurilish_1.docx',
-                     'yangi/qurilish1.docx', 'qurilish', 'hajm')
+                     'yangi/qurilish1.docx', 'qurilish', 'ulush')
 
 qurilish.matn('period_uz', 'mart')
 qurilish.matn('period_ru', 'март')

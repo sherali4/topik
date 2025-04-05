@@ -3,7 +3,7 @@ from functions.classes import Filltopic
 
 
 # qurilish
-qurilish = Filltopic('example.docx', '400.docx', 'sanoat', 'ulush')
+qurilish = Filltopic('example.docx', '400.docx', 'sanoat', 'hajm')
 qurilish.matn('period_uz', 'mart')
 qurilish.matn('period_ru', 'март')
 qurilish.respublika('2023_raqam', '2023')
@@ -17,7 +17,7 @@ qurilish.hudud_ru('@hr1', 1)
 qurilish.hudud_ru('@hr2', 2)
 # run.add_break(WD_BREAK.LINE)
 qurilish = Filltopic('shablon/qurilish_1.docx',
-                     'yangi/qurilish1.docx', 'qurilish', 'hajm')
+                     'yangi/qurilish1.docx', 'qurilish', 'ulush')
 
 qurilish.matn('period_uz', 'mart')
 qurilish.matn('period_ru', 'март')
@@ -29,8 +29,8 @@ for i in range(15):
     qurilish.kursatkich('@k'+str(i) + '@', i)
 # doc = Document('shablon/qurilish_1.docx')
 
-qurilish = Filltopic('shablon/qurilish_2.docx',
-                     'yangi/qurilish2.docx', 'qurilish', 'ulush')
+qurilish = Filltopic('shablon/qurilish_1.docx',
+                     'yangi/qurilish1.docx', 'qurilish', 'ulush')
 
 qurilish.matn('period_uz', 'mart')
 qurilish.matn('period_ru', 'март')
